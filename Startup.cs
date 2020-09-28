@@ -47,6 +47,7 @@ namespace SampleAppForAzure
             {
                 endpoints.MapRazorPages();
             });
+            System.Diagnostics.Trace.TraceInformation("Configuration created..");
         }
     }
 }

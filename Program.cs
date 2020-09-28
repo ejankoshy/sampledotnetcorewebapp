@@ -13,6 +13,7 @@ namespace SampleAppForAzure
     {
         public static void Main(string[] args)
         {
+            System.Diagnostics.Trace.TraceInformation("Creating host builder...");
             CreateHostBuilder(args).Build().Run();
         }
 
